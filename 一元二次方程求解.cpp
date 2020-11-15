@@ -12,9 +12,9 @@ int main()
 		if(b==0)
 		{
 			if(c==0)
-				cout<<"ÎÞÇî½â"; 
+				cout<<"ERROR"; 
 			else
-			    cout<<"³ö´í";			
+			    cout<<"Â³Ã¶Â´Ã­";			
 		}
 		else
 		     cout<<"x="<<-c/b;
