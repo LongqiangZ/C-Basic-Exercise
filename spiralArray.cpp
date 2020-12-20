@@ -10,7 +10,7 @@ int main()
 	int begin=1;
 	for(int n=0;n<=N/2;n++)
 	{
-		for(int j=n;j<=N-n-1;j++) 
+	for(int j=n;j<=N-n-1;j++) 
         num[n][j]=begin++; 
         for(int i=n+1;i<N-n-1;i++) 
         num[i][N-n-1]=begin++; 
@@ -21,9 +21,9 @@ int main()
 	}
 	for(int i=0;i<N;i++)
 	{
-		for(int j=0;j<N;j++)
+	for(int j=0;j<N;j++)
         cout<<setw(5)<<num[i][j];
-	    cout<<endl;
+	cout<<endl;
 	}
 	return 0;
 }
